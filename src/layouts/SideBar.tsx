@@ -38,7 +38,7 @@ const Navigation = () => {
     <>
       <div className="w-full h-[100vh] bg-black/10 border-black/10 border-r-[1px] flex-1 flex flex-col justify-between py-4">
         <div className="mx-5">
-          <div className="mb-8">
+          <div className="mb-8 cursor-pointer">
             <span className="text-xl bg-custom-purple rounded-xl px-4 py-2 flex items-center justify-between text-white">
               + New Search
               <FaRegEdit />

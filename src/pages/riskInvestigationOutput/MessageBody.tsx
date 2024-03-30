@@ -2,13 +2,14 @@ import { useState, useRef, useEffect } from "react";
 
 import { Spinner } from "@material-tailwind/react";
 import { MSG_BY_BOT, MSG_BY_USER } from "@/utils/Constants";
+import { MessageBodyProps, MessageHistory } from "@/types";
 
-const MessageBody = (props: any) => {
+const MessageBody = (props: MessageBodyProps) => {
   const chatRef = useRef<HTMLDivElement>(null);
 
   const { newMsg, onGettingReply } = props;
 
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState<Array<MessageHistory>>([]);
   const [gettingReply, setGettingReply] = useState(false);
   const [addmsg, setAddMsg] = useState(false);
 
@@ -18,7 +19,7 @@ const MessageBody = (props: any) => {
 
   useEffect(() => {
     if (!newMsg.length) return;
-    var tempMsgs: any = messages;
+    var tempMsgs: Array<MessageHistory> = messages;
     tempMsgs.push({
       type: MSG_BY_USER,
       content: newMsg,
@@ -49,7 +50,7 @@ const MessageBody = (props: any) => {
         } h-[calc(100%-122px)] w-full overflow-auto p-8`}
         ref={chatRef}
       >
-        {messages.map((message: any, index) => (
+        {messages.map((message: MessageHistory, index) => (
           <div
             key={index}
             className={`mb-2 flex ${
