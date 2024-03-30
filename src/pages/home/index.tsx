@@ -22,9 +22,9 @@ const Home = () => {
     <div className="w-full min-h-screen flex flex-col gap-8 justify-center items-center px-6">
       <span className="font-bold text-2xl">Select a Function</span>
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 max-w-5xl md:max-w-6xl lg:max-w-7xl mx-auto">
-        <div className="rounded-2xl border-custom-green border-2 p-8 flex flex-col gap-4 drop-shadow-lg col-span-1">
+        <div className="rounded-2xl border-custom-green border-2 p-8 flex flex-col gap-4 drop-shadow-lg col-span-1 cursor-pointer">
           <div className="flex justify-center h-20">
-            <img src="/risks 1.svg" alt="" />
+            <img src="/risks 1.svg" alt="Risk Investigation" />
           </div>
           <span className="font-semibold text-xl text-center">
             Risk Investigation
@@ -36,9 +36,9 @@ const Home = () => {
             insights into personal and professional histories.
           </p>
         </div>
-        <div className="rounded-2xl border-custom-purple border-2 p-8 flex flex-col gap-4 drop-shadow-lg  col-span-1">
+        <div className="rounded-2xl border-custom-purple border-2 p-8 flex flex-col gap-4 drop-shadow-lg  col-span-1 cursor-pointer">
           <div className="flex justify-center h-20">
-            <img src="/people 1.svg" alt="" />
+            <img src="/people 1.svg" alt="Person Search" />
           </div>
           <span className="font-semibold text-xl text-center">
             Person Search
@@ -50,9 +50,9 @@ const Home = () => {
             effortlessly find the talent, leads, or precise profiles you need.
           </p>
         </div>
-        <div className="rounded-2xl border-custom-blue border-2 p-8 flex flex-col gap-4 drop-shadow-lg  col-span-1">
+        <div className="rounded-2xl border-custom-blue border-2 p-8 flex flex-col gap-4 drop-shadow-lg  col-span-1 cursor-pointer">
           <div className="flex justify-center h-20">
-            <img src="/contact-mail 1.svg" alt="" />
+            <img src="/contact-mail 1.svg" alt="Contact Enrichment" />
           </div>
           <span className="font-semibold text-xl text-center">
             Contact Enrichment
