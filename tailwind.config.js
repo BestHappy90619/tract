@@ -7,6 +7,8 @@ export default withMT({
     extend: {},
     colors: {
       "custom-purple": "#573CFF",
+      "custom-green": "#4BD8A4",
+      "custom-blue": "#0094FF",
     },
   },
   plugins: [],
