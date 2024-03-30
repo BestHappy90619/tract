@@ -8,3 +8,18 @@ export type TMainFunctionBoxProps = {
   description: string;
   [key: string]: any;
 };
+
+export type ChatInputProps = {
+  gettingReply: boolean;
+  onClickSent: Function;
+};
+
+export type MessageBodyProps = {
+  newMsg: string;
+  onGettingReply: Function;
+};
+
+export type MessageHistory = {
+  type: string;
+  content: string;
+};

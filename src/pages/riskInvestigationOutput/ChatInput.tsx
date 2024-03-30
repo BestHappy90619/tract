@@ -2,7 +2,9 @@ import { useState } from "react";
 
 import { AiOutlineSend } from "react-icons/ai";
 
-const ChatInput = (props: any) => {
+import { ChatInputProps } from "@/types";
+
+const ChatInput = (props: ChatInputProps) => {
   const { gettingReply, onClickSent } = props;
 
   const [msg, setMsg] = useState("");
