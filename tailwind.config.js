@@ -9,6 +9,7 @@ export default withMT({
       "custom-purple": "#573CFF",
       "custom-green": "#4BD8A4",
       "custom-blue": "#0094FF",
+      "custom-gray": "#F7F7F7",
     },
   },
   plugins: [],
