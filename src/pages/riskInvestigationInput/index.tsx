@@ -6,7 +6,7 @@ const RiskInvestigationInput = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full min-h-screen flex flex-col gap-8 justify-center items-center px-6">
+    <div className="w-full min-h-screen flex flex-col gap-8 justify-center items-center px-6 py-6">
       <div className="grid text-center">
         <span className="font-bold text-2xl">Who is the Subject?</span>
         <span className="font-light text-base">
@@ -25,8 +25,11 @@ const RiskInvestigationInput = () => {
                 className="focus:shadow-md shadow-black"
                 success
                 color="teal"
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
                 labelProps={{ className: "!text-gray-400" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -36,8 +39,11 @@ const RiskInvestigationInput = () => {
                 className="focus:shadow-md shadow-black"
                 success
                 color="teal"
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
                 labelProps={{ className: "!text-gray-400" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -51,8 +57,11 @@ const RiskInvestigationInput = () => {
                 className="focus:shadow-md shadow-black"
                 success
                 color="teal"
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
                 labelProps={{ className: "!text-gray-400" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="flex justify-between gap-2 w-full">
@@ -63,8 +72,11 @@ const RiskInvestigationInput = () => {
                   className="focus:shadow-md shadow-black"
                   success
                   color="teal"
-                  containerProps={{ className: "min-w-[100px]" }}
+                  containerProps={{ className: "!min-w-[100px]" }}
                   labelProps={{ className: "!text-gray-400" }}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  crossOrigin={undefined}
                 />
               </div>
               <div className="grid gap-2">
@@ -74,8 +86,11 @@ const RiskInvestigationInput = () => {
                   className="focus:shadow-md shadow-black"
                   success
                   color="teal"
-                  containerProps={{ className: "min-w-[100px]" }}
+                  containerProps={{ className: "!min-w-[100px]" }}
                   labelProps={{ className: "!text-gray-400" }}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  crossOrigin={undefined}
                 />
               </div>
             </div>
@@ -91,7 +106,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -104,7 +122,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -117,7 +138,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -130,7 +154,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
               <Input
                 label="City"
@@ -138,7 +165,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
               <Input
                 label="State"
@@ -146,7 +176,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -159,7 +192,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
               <Input
                 label="City"
@@ -167,7 +203,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
               <Input
                 label="State"
@@ -175,7 +214,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -192,7 +234,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -203,7 +248,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -216,6 +264,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -226,7 +278,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -239,7 +294,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -250,7 +308,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -265,7 +326,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -276,7 +340,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -289,7 +356,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
             <div className="grid gap-2 w-full">
@@ -300,7 +370,10 @@ const RiskInvestigationInput = () => {
                 success
                 color="teal"
                 labelProps={{ className: "!text-gray-400" }}
-                containerProps={{ className: "min-w-[100px]" }}
+                containerProps={{ className: "!min-w-[100px]" }}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                crossOrigin={undefined}
               />
             </div>
           </div>
@@ -309,6 +382,9 @@ const RiskInvestigationInput = () => {
       <Button
         className="rounded-lg bg-gradient-to-b from-[#AFFABC] to-[#09B99D] text-black"
         onClick={() => navigate("/riskinvestigationoutput")}
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         Submit
       </Button>

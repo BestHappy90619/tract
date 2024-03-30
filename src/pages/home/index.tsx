@@ -5,7 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full min-h-screen flex flex-col gap-8 justify-center items-center px-6">
+    <div className="w-full min-h-screen flex flex-col gap-8 justify-center items-center px-6 py-6">
       <span className="font-bold text-2xl">Select a Function</span>
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 max-w-5xl md:max-w-6xl lg:max-w-7xl mx-auto">
         <TMainFunctionBox
