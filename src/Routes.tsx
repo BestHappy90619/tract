@@ -6,6 +6,8 @@ import Error404 from "@/pages/error/404";
 
 // main pages
 import Home from "@/pages/home";
+import RiskInvestigationInput from "@/pages/riskInvestigationInput";
+import RiskInvestigationOutput from "@/pages/riskInvestigationOutput";
 
 const Routes = [
   {
@@ -15,6 +17,14 @@ const Routes = [
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/riskinvestigationinput",
+        element: <RiskInvestigationInput />,
+      },
+      {
+        path: "/riskinvestigationoutput",
+        element: <RiskInvestigationOutput />,
       },
     ],
   },
